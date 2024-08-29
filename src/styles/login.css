@@ -1,0 +1,37 @@
+#container{
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);    
+    width: 350px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(100, 161, 196);
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px 10px rgba(156, 62, 62, 0.56);
+}
+#login{
+    background-color: rgb(164, 214, 219);
+    border-radius: 10px;
+    padding: 5px;
+    box-sizing: 3px 3px 10px 3px grey;
+    margin-top: 10px;
+}
+label{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+input{
+    height: 40px;
+    width: 300px;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+.field{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}

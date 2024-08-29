@@ -1,6 +1,6 @@
 import"../styles/navbar.css";
 import logo from "../logo.svg"
-import {Link} from "react-rout er-dom"
+import {Link} from "react-router-dom"
 export default function Navbar({title}){
     return(
         <>
@@ -15,6 +15,7 @@ export default function Navbar({title}){
           <Link to='/downloads'><p>Settings</p></Link>
           <Link to='/profile'><p>Profile</p></Link>
           <Link to='/settings'><p>Downloads</p></Link>
+          <Link to='/login'><p>Login</p></Link>
         </div>
       </div>
         </>
